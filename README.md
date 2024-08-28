@@ -8,7 +8,7 @@
 
 <div align="center">
  
- 🔭 I’m currently working on **an android social media app**
+ 🔭 I’m currently working on **an social media app**
  
  🌱 I’m currently learning **Flutter, Dart**
 
