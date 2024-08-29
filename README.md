@@ -12,11 +12,19 @@
  
  🌱 I’m currently learning **Flutter, Dart**
 
-💬 Ask me about **Node.js, Flutter, Firebase, Unity**
-
  </div>
 
  <hr/>
+
+ <h2 align="center">⚒️ I have experience in ⚒️</h2>
+<br/>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=unity,cs,nodejs,discordjs" />
+    <img src="https://skillicons.dev/icons?i=flutter,dart,firebase" /><br>
+</div>
+
+<br/>
+<hr/>
 
 <div align="center">
   <h2>My Contributions</h2>
