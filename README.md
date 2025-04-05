@@ -20,7 +20,7 @@
 <br/>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=unity,cs,nodejs,discordjs" />
-    <img src="https://skillicons.dev/icons?i=flutter,dart,firebase" /><br>
+    <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,supabase,git,github" /><br>
 </div>
 
 <br/>
