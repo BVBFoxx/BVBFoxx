@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="glow-effect"></div>
+    <div class="particles"></div>
+    
+    <header>
+        <div class="container">
+            <h1 class="header-title">Developer Portfolio</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="profile">
+                    <div class="profile-image-container">
+                        <img src="https://github.com/BVBFuchs.png" alt="Profile Picture" id="profile-pic" onclick="startMatrixEffect()">
+                        <div class="profile-glow"></div>
+                    </div>
+                    <h2 id="username" class="glow-text">BVBFuchs</h2>
+                    <p id="bio" class="subtitle">Software and game developer from Germany</p>
+                    <div class="social-links">
+                        <a href="https://github.com/BVBFuchs" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="container">
+                <h2 class="section-title glow-text">Skills & Expertise</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Programming</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                        <p>Advanced in multiple languages like Dart, C# and JavaScript</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Database</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 55%"></div>
+                        </div>
+                        <p>Experienced in using databases like Firestore and Supabase</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="achievements">
+            <div class="container">
+                <h2 class="section-title glow-text">Key Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <i class="fas fa-trophy"></i>
+                        <h3>10+ Projects</h3>
+                        <p>Successfully released projects like Remake, Shot!t and more</p>
+                    </div>
+                    <div class="achievement-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>7+ Years</h3>
+                        <p>Experience in programming</p>
+                    </div>
+                    <div class="achievement-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Team Leader</h3>
+                        <p>Leading game development teams</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 BVBFuchs</p>
+        </div>
+    </footer>
+
+    <canvas id="matrixCanvas" class="hidden"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html> 
